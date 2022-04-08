@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
+    flex-grow: 1;
 }
 
 ul {
@@ -106,6 +107,7 @@ h3 {
     justify-content: center;
     flex: 1 1 auto;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .illustration-container-1 {
@@ -120,4 +122,26 @@ h3 {
     width: 100%;
     max-width: 180px;
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 220px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    row-gap: 0px 0px;
+    margin: 0px;
+}
+#thor-quote {
+    display: flex;
+}
+
+#author {
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }

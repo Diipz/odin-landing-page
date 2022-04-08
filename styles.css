@@ -145,3 +145,43 @@ h3 {
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+.sign-up {
+    display: flex;
+    padding: 100px 150px;
+}
+
+.blue-tab {
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 100px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 18px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: larger;
+    width: 40%;
+}
+
+#bolder {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+#bborder {
+    display: flex;
+    align-self: center;
+    border: 20px;
+    border-color: white;
+    border-radius: 12px;
+}
